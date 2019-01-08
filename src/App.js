@@ -1,26 +1,36 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/Navbar';
+import Index from './Components/Index';
+import Resume from './Components/Resume';
+import Work from './Components/Work';
+import Contact from './Components/Contact';
+// import Footer from './Components/Footer';
+import './Style/Style.css';
+import { BrowserRouter } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <BrowserRouter>
+        <div className="App ">
+          <Navbar />
+          <Route path='/' exact render={() => {
+            return (<Index />);
+          }} />
+          <Route path='/resume' exact render={() => {
+            return (<Resume />);
+          }} />
+          <Route path='/work' exact render={() => {
+            return (<Work />);
+          }} />
+          <Route path='/contact' exact render={() => {
+            return (<Contact />);
+          }} />
+          {/* <Footer/> */}
+        </div>
+      </BrowserRouter>
     );
   }
 }
