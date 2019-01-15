@@ -36,9 +36,6 @@ nav ul li .nav-link:hover{
 }
 
 .profile-row .profile-div {
-  /* padding-top: 80px; */
-  /* margin: 0 auto; */
-  /* width: 50%; */
   margin: 0 auto;
 }
 
@@ -97,6 +94,10 @@ nav ul li .nav-link:hover{
   border-bottom: 2px solid #171717;
 }
 
+.process-icons {
+  padding-bottom: 50px;
+}
+
 .col-md-4 .para{
   color: #171717 !important;
   text-align: center;
@@ -104,7 +105,7 @@ nav ul li .nav-link:hover{
 }
 
 .quote{
-  border: 1px solid rgba(0,0,0,0.12);
+  border: 2px solid rgba(0,0,0,0.12);
   border-radius: 24px;
 }
 
@@ -114,6 +115,10 @@ nav ul li .nav-link:hover{
 
 .quote .col .quote-para{
   font-size: 24px;
+}
+
+.author {
+  padding-bottom: 20px;
 }
 
 /* Routes */
@@ -135,6 +140,28 @@ nav ul li .nav-link:hover{
   max-width: 100%;
 }
 
+.resume-para .resumeDiv{
+  padding: 10px 0;
+}
+
+/* Footer */
+.footer{
+padding-top: 40px;
+}
+
+.footer div{
+  padding: 30px;
+}
+
+.footer a{
+  text-decoration: none;
+  background-color: #171717;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  color: #fafafa;
+}
+
 /* Media Query */
 
 @media screen and (max-width: 576px) {
@@ -146,15 +173,19 @@ nav ul li .nav-link:hover{
     margin: 0 15px;
   }
 
+  .navbar,.resume{
+    text-align: center !important;
+  }
+  .resume li{
+    list-style-type: none;
+  }
+
   .App {
     text-align: center !important;
   }
 }
 
 @media screen and (max-width: 478px) {
-  .navbar,.resume{
-    text-align: center !important;
-  }
   .navbar{
     padding: 20px 15px;
   }
@@ -183,7 +214,7 @@ nav ul li .nav-link:hover{
 
 @media screen and (min-width: 992px) {
   .profile-row .profile-div{
-    padding-top: 50px;
+    padding-top: 60px;
   }
   }
 

@@ -3,9 +3,8 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import Index from './Components/Index';
 import Resume from './Components/Resume';
-import Work from './Components/Work';
 import Contact from './Components/Contact';
-// import Footer from './Components/Footer';
+import Footer from './Components/Footer';
 import './Style/Style.css';
 import { BrowserRouter } from 'react-router-dom';
 import { Route } from 'react-router-dom';
@@ -22,13 +21,10 @@ class App extends Component {
           <Route path='/resume' exact render={() => {
             return (<Resume />);
           }} />
-          <Route path='/work' exact render={() => {
-            return (<Work />);
-          }} />
           <Route path='/contact' exact render={() => {
             return (<Contact />);
           }} />
-          {/* <Footer/> */}
+          <Footer/>
         </div>
       </BrowserRouter>
     );
