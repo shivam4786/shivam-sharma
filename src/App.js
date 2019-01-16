@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div className="App ">
+        <div className="App">
           <Navbar />
           <Route path='/shivam-sharma' exact render={() => {
             return (<Index />);

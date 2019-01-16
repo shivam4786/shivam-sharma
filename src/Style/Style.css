@@ -146,20 +146,21 @@ nav ul li .nav-link:hover{
 
 /* Footer */
 .footer{
-padding-top: 40px;
+  margin: 40px 0;
 }
 
-.footer div{
-  padding: 30px;
+.footer:before{
+  content: "";
+  position: relative;
+  border-top: 1px solid #171717;
+  display: block;
+  top: -20px;
+  opacity: 0.2;
 }
 
 .footer a{
   text-decoration: none;
-  background-color: #171717;
-  padding: 10px;
-  border-radius: 10px;
-  display: inline-block;
-  color: #fafafa;
+  color: #171717;
 }
 
 /* Media Query */
