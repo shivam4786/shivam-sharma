@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/shivam-sharma/precache-manifest.58432f679d3c1aa6b6f317a6aca7ec60.js"
+  "/shivam-sharma/precache-manifest.b18215bf29738fa7f1af315714980242.js"
 );
 
 workbox.clientsClaim();
