@@ -6,13 +6,13 @@ const navbar = () => {
   return (
     <nav className='navbar navbar-expand-sm navbar-light bg-light customNav'>
       <div className="container">
-        <Link className="navbar-brand" to='/'>Shivam Sharma.</Link>
+        <Link className="navbar-brand" to='/shivam-sharma'>Shivam Sharma.</Link>
         <ul className='navbar-nav ml-auto'>
           <li className="nav-item">
-            <Link className="nav-link" to='/resume'>resume</Link>
+            <Link className="nav-link" to='/shivam-sharma/resume'>resume</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to='/contact'>contact</Link>
+            <Link className="nav-link" to='/shivam-sharma/contact'>contact</Link>
           </li>
         </ul>
       </div>

@@ -2,7 +2,7 @@
   "name": "my-resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://shivam4786.github.io/shivam-sharma",
+  "homepage": "http://shivam4786.github.io/portfolio",
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",

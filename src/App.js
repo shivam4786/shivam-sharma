@@ -15,13 +15,13 @@ class App extends Component {
       <BrowserRouter>
         <div className="App ">
           <Navbar />
-          <Route path='/' exact render={() => {
+          <Route path='/shivam-sharma' exact render={() => {
             return (<Index />);
           }} />
-          <Route path='/resume' exact render={() => {
+          <Route path='/shivam-sharma/resume' exact render={() => {
             return (<Resume />);
           }} />
-          <Route path='/contact' exact render={() => {
+          <Route path='/shivam-sharma/contact' exact render={() => {
             return (<Contact />);
           }} />
           <Footer/>
