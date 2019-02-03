@@ -14,9 +14,9 @@ const profile = () => {
             <h2 className='profile-heading'>hello!</h2>
             <p className='profile-para'>Team player software developer with a can-do attitude, phenomenal time management skills, and a strong user focus.</p>
             <div className='row'>
-              <div className="col-sm"><a href="https://www.linkedin.com/in/shivam-sharma-25a3b7115/"><i className="fab fa-linkedin-in"></i></a></div>
+              <div className="col-sm"><a href="https://www.linkedin.com/in/shivam-sharma-25a3b7115/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a></div>
               {/* <div className="col-sm"><a href="https://github.com/shivam4786"><i className="fab fa-github"></i></a></div> */}
-              <div className="col-sm"><a href="https://leetcode.com/shivamsharma4786/"><i className="fas fa-code"></i></a></div>
+              <div className="col-sm"><a href="https://leetcode.com/shivamsharma4786/" target="_blank" rel="noopener noreferrer"><i className="fas fa-code"></i></a></div>
             </div>
           </div>
         </div>
