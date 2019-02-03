@@ -1,7 +1,7 @@
 {
   "main.css": "/shivam-sharma/static/css/main.ed907c43.chunk.css",
-  "main.js": "/shivam-sharma/static/js/main.af1e0019.chunk.js",
-  "main.js.map": "/shivam-sharma/static/js/main.af1e0019.chunk.js.map",
+  "main.js": "/shivam-sharma/static/js/main.543e744d.chunk.js",
+  "main.js.map": "/shivam-sharma/static/js/main.543e744d.chunk.js.map",
   "static/js/1.07bc3b0e.chunk.js": "/shivam-sharma/static/js/1.07bc3b0e.chunk.js",
   "static/js/1.07bc3b0e.chunk.js.map": "/shivam-sharma/static/js/1.07bc3b0e.chunk.js.map",
   "runtime~main.js": "/shivam-sharma/static/js/runtime~main.6eb6570b.js",
@@ -13,6 +13,6 @@
   "static/media/ic_ideate.svg": "/shivam-sharma/static/media/ic_ideate.07d17c08.svg",
   "static/css/main.ed907c43.chunk.css.map": "/shivam-sharma/static/css/main.ed907c43.chunk.css.map",
   "index.html": "/shivam-sharma/index.html",
-  "precache-manifest.0f62053c0023d097e1f71c1cae74f639.js": "/shivam-sharma/precache-manifest.0f62053c0023d097e1f71c1cae74f639.js",
+  "precache-manifest.e614febef1bd5b7b8a0cda200e31597c.js": "/shivam-sharma/precache-manifest.e614febef1bd5b7b8a0cda200e31597c.js",
   "service-worker.js": "/shivam-sharma/service-worker.js"
 }
