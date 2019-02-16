@@ -24,19 +24,19 @@ self.__precacheManifest = [
     "url": "/shivam-sharma/static/js/runtime~main.6eb6570b.js"
   },
   {
-    "revision": "543e744da1b0f0703bc2",
-    "url": "/shivam-sharma/static/js/main.543e744d.chunk.js"
+    "revision": "fd813214e7233104094b",
+    "url": "/shivam-sharma/static/js/main.fd813214.chunk.js"
   },
   {
-    "revision": "07bc3b0e731fde0017df",
-    "url": "/shivam-sharma/static/js/1.07bc3b0e.chunk.js"
+    "revision": "a25fc89ab075289b3637",
+    "url": "/shivam-sharma/static/js/1.a25fc89a.chunk.js"
   },
   {
-    "revision": "543e744da1b0f0703bc2",
-    "url": "/shivam-sharma/static/css/main.ed907c43.chunk.css"
+    "revision": "fd813214e7233104094b",
+    "url": "/shivam-sharma/static/css/main.939de56d.chunk.css"
   },
   {
-    "revision": "52183a4fa2df14dd04558dc29ef56941",
+    "revision": "4bb62cada8b019b003b04bcdc430e562",
     "url": "/shivam-sharma/index.html"
   }
 ];
