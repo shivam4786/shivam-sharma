@@ -1,0 +1,19 @@
+{
+  "name": "shivam-sharma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "precache-manifest.ce1b048e57740ee2342b03a0ff521dc8.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivam4786/shivam-sharma.git"
+  },
+  "author": "\"Shivam Sharma\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivam4786/shivam-sharma/issues"
+  },
+  "homepage": "https://github.com/shivam4786/shivam-sharma#readme"
+}
